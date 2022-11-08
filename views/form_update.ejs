@@ -1,0 +1,12 @@
+<h1>Sửa danh sách user</h1>
+
+<form action="/update" method="POST"> 
+    Id: <input type="text" name="id" value="<%= user.id %>"><br>
+    EnableFCM: <input type="checkbox" name="enablefcm" value="<%= user.enablefcm %>"><br>
+    Avatar: <input type="text" name="avatar" value="<%= user.avatar %>"><br>
+    Banner: <input type="text" name="banner" value="<%= user.banner %>"><br>
+    Fullname: <input type="text" name="fullname" value="<%= user.fullname %>"><br>
+    TypeUser: <input type="text" name="typeuser" value="<%= user.typeuser %>"><br>
+    IdProvince: <input type="text" name="idprovince" value="<%= user.idprovince %>"><br>
+    <button type="submit">Sửa danh sách user</button>
+</form>
